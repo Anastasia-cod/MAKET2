@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+  }
+
+.first {
+    min-height: 900px;
+    background-image: url("../МАКЕТ2/img/Rectangle-2.png"); 
+}
+
+.nav-menu {
+    display: flex;
+    
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.nav-menu div {
+    
+    list-style: none;
+    padding: 40px 40px;
+   
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+div .endnav {
+    padding-right: 405px;
+}
+
+.nav-menu a:hover {
+border-bottom: 2px solid #FFFFFF;
+padding-bottom: 39px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    padding-top: 319px;
+
+    align-items: center;
+}
+
+.block1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #FFFFFF;
+
+}
+
+.block2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    width: 829px;
+    font-family: 'Montserrat', sans-serif;
+
+
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.knopka {
+    width: 200px;
+    height: 45px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+
+    color: #FFFFFF;
+    
+
+}
