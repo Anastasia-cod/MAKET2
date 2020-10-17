@@ -1,0 +1,57 @@
+@media  (max-width: 768px) {
+    .header {
+      height: 700px;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      height: 16px;
+      overflow: hidden;
+    }
+  
+    .nav-menu a, .fake-link {
+      height: unset;
+      margin-bottom: 20px;
+    }
+  
+    .fake-link {
+      display: flex;
+    }
+  
+    .fake-link:hover ~ .nav-menu {
+      height: unset;
+      transition: all 0.25s ease-in-out;
+    }
+  
+    .text {
+      padding: 0 10px;
+    }
+  
+    .text h1 {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+  
+    .header-nav-wrapper {
+      margin-bottom: 100px;
+    }
+
+    .float1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        height: 500px;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+
+
+
+
+    
+    
+  }
+  
