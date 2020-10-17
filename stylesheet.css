@@ -120,7 +120,7 @@
     font-size: 36px;
     line-height: 53px;
     text-align: center;
-    width: 739px;
+    max-width: 739px;
     padding-bottom: 50px;
 
     color: #323232;
@@ -137,7 +137,7 @@
 
 
     color: #999999;
-    width: 730px;
+    max-width: 730px;
   }
 
   .float1 {
