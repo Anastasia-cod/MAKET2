@@ -227,22 +227,29 @@
     }
 
 
-    .block3 {
-      padding: 100px 0;
+    .bl3 {
       background-color: #F6F6F8;
+      padding: 100px 0;
+    }
+
+    .block3 {
+      
       display: flex;
       justify-content: center;
       align-items: center;
+      max-width: 1100px;
+      margin: 0 auto;
       border-bottom: 1px solid transparent;
       border-color: #E0E0E0;
-     
+      
   
     }
   
 
   .textd {
-    padding-top: 52px;
+    
     margin-right: 121px;
+
   
   }
 
@@ -277,6 +284,8 @@
     font-size: 16px;
     line-height: 20px;
     text-decoration-line: underline;
+    margin-bottom: 143px;
+  
 
 
     color: #4985FF;
@@ -286,6 +295,7 @@
     width: 500px;
     height: 400px;
     border-radius: 30px;
+    margin-bottom: 90px;
   }
 
   .block4 {
