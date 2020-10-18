@@ -39,6 +39,7 @@
     }
 
     .float1 {
+  
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -88,15 +89,106 @@
 
 
 @media  (max-width: 1370px) {
-
   .block4 {
+
     max-width: 1300px;
+    padding: 10px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
 
   .maincontent {
+    padding: 0px;
     max-width: 1300px;
-  }  
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .part2 {
+    max-width: 1300px;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .content2:nth-child(2) {
+    display: none;
+  }
+
+  .content2:nth-child(3) {
+    display: none;
+  }
+
+  .content2:nth-child(4) {
+    display: none;
+  }
+
+  .content2:nth-child(5) {
+    display: none;
+  }
+
+  .project:nth-child(2) {
+    display: none;
+  }
+
+  .project:nth-child(3) {
+    display: none;
+  }
+
+  .project:nth-child(4) {
+    display: none;
+  }
+
+  .project:nth-child(5) {
+    display: none;
+  }
+
+}
+  
        
+@media  (max-width: 1140px) {
+  .container2 {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  
+  }
+
+  .container2 div {
+    padding-bottom: 25px;
+  }
+
+
+  .container2 img {
+    max-width: 350px;
+    height: 300px;
+  
+   
+  }
+
+  .container2 a {
+    margin-bottom: 20px;
+  }
+
+
+
+  .floattwo p {
+  
+    margin-left: 200px;
+  }
+
+  .button2 {
+    margin-bottom: 25px;
+    margin-left: 280px;
+  }
+
+
 
   
+
+
 }
+  
